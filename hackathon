@@ -1,0 +1,24 @@
+ civic-project/
+├─ backend/
+│ ├─ package.json
+│ ├─ server.js
+│ ├─ db.js
+│ ├─ routes/
+│ │ ├─ auth.js
+│ │ └─ complaints.js
+│ ├─ uploads/ # local uploads for dev
+│ ├─ Dockerfile
+│ └─ docker-compose.yml
+├─ mobile/ # Expo React Native
+│ ├─ package.json
+│ ├─ App.js
+│ └─ screens/
+│ ├─ LoginScreen.js
+│ └─ ComplaintForm.js
+└─ admin/ # Vite React admin dashboard
+├─ package.json
+├─ index.html
+├─ src/
+│ ├─ main.jsx
+│ ├─ App.jsx
+│ └─ components/
